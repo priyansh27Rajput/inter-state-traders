@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Settings &amp; Profile | INTER STATE TRADERS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed-dim": "#bec6e0",
+                    "on-primary-container": "#7c839b",
+                    "surface-container-low": "#f0f3ff",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "on-surface": "#111c2d",
+                    "on-secondary-fixed-variant": "#3a485b",
+                    "on-tertiary-fixed-variant": "#763300",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#515f74",
+                    "tertiary-fixed": "#ffdbca",
+                    "surface-bright": "#f9f9ff",
+                    "secondary-fixed": "#d5e3fc",
+                    "on-error-container": "#93000a",
+                    "outline-variant": "#c6c6cd",
+                    "inverse-on-surface": "#ecf1ff",
+                    "surface-container": "#e7eeff",
+                    "primary-container": "#131b2e",
+                    "surface": "#f9f9ff",
+                    "on-surface-variant": "#45464d",
+                    "on-secondary": "#ffffff",
+                    "surface-container-high": "#dee8ff",
+                    "secondary-container": "#d5e3fc",
+                    "inverse-primary": "#bec6e0",
+                    "inverse-surface": "#263143",
+                    "tertiary-container": "#331200",
+                    "secondary-fixed-dim": "#b9c7df",
+                    "outline": "#76777d",
+                    "error-container": "#ffdad6",
+                    "on-primary": "#ffffff",
+                    "on-secondary-container": "#57657a",
+                    "primary": "#000000",
+                    "primary-fixed": "#dae2fd",
+                    "on-primary-fixed": "#131b2e",
+                    "tertiary-fixed-dim": "#ffb68e",
+                    "surface-dim": "#cfdaf2",
+                    "background": "#f9f9ff",
+                    "on-background": "#111c2d",
+                    "surface-variant": "#d8e3fb",
+                    "on-tertiary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "tertiary": "#000000",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#565e74",
+                    "surface-container-highest": "#d8e3fb",
+                    "on-secondary-fixed": "#0d1c2e",
+                    "on-tertiary-fixed": "#331200",
+                    "on-tertiary-container": "#cf6721"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(216, 227, 251, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar -->
+<header class="bg-slate-50 dark:bg-slate-950 docked full-width top-0 sticky z-50">
+<div class="flex justify-between items-center w-full px-6 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-slate-900 dark:text-slate-50">construction</span>
+<h1 class="text-2xl font-black text-slate-900 dark:text-slate-50 tracking-tighter font-headline">INTER STATE TRADERS</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 transition-colors rounded-full text-slate-900 dark:text-slate-50">
+<span class="material-symbols-outlined">search</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-screen-2xl mx-auto flex min-h-screen">
+<!-- NavigationDrawer (Sidebar) -->
+<aside class="hidden md:flex w-80 h-full flex-col pt-8 bg-white dark:bg-slate-950 shadow-2xl sticky top-20">
+<div class="px-8 mb-8">
+<h2 class="text-xl font-bold text-slate-900 dark:text-slate-50 font-headline tracking-tight">INDUSTRIAL MONOLITH</h2>
+</div>
+<nav class="flex flex-col">
+<a class="flex items-center gap-4 px-8 py-4 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all font-headline" href="#">
+<span class="material-symbols-outlined" data-icon="switch_account">switch_account</span>
+<span>Account Type</span>
+</a>
+<a class="flex items-center gap-4 px-8 py-4 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all font-headline" href="#">
+<span class="material-symbols-outlined" data-icon="smart_toy">smart_toy</span>
+<span>AI Assistant</span>
+</a>
+<a class="flex items-center gap-4 px-8 py-4 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all font-headline" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span>Payments</span>
+</a>
+<a class="bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-bold border-r-4 border-orange-500 flex items-center gap-4 px-8 py-4 transition-all font-headline" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-4 px-8 py-4 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900 transition-all font-headline" href="#">
+<span class="material-symbols-outlined" data-icon="contact_support">contact_support</span>
+<span>Support</span>
+</a>
+</nav>
+</aside>
+<!-- Content Canvas -->
+<section class="flex-1 px-6 md:px-12 py-10 bg-surface">
+<!-- Hero Profile Section: Editorial Asymmetry -->
+<div class="relative mb-16">
+<div class="flex flex-col md:flex-row items-end gap-8">
+<div class="relative group">
+<div class="w-48 h-64 bg-surface-container-high rounded-xl overflow-hidden shadow-lg">
+<img alt="Profile Photo" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="portrait of a professional male industrial engineer in a minimal architectural setting with sharp directional lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFuo2Knz_tvPZEexcRozqEcJYFL6QsPJrYyeVnXNT8YZ-LBKEYV2_JO-sxysYpvxXUAc7J-lX9t8y2u1ez8HaMa3sF8ncsubk_kVCvFY4LBROHUesFQW8YCYL1YXsj0bC_YazMQWaDZ09jptjUWXeAg5ZMVX8TfSsnHuCagyl9Wi4QUYpzrJC7AEIqjZOkp5RQYT6LUrD3STVTEwMc5GgxlfGZipx8dTDejm0KIb0mLIZ1TQ_wewrckc1v4QWbM9K_tFqiwHYcM6k"/>
+</div>
+<div class="absolute -bottom-4 -right-4 bg-on-tertiary-container text-white p-3 rounded-xl shadow-xl flex items-center justify-center">
+<span class="material-symbols-outlined" data-weight="fill">verified</span>
+</div>
+</div>
+<div class="flex-1 pb-4">
+<p class="font-headline font-bold uppercase tracking-[0.2em] text-on-primary-container text-sm mb-2">Primary Partner</p>
+<h2 class="text-6xl font-headline font-black tracking-tighter text-primary">Aarti Rajpoot</h2>
+<div class="mt-4 flex gap-4">
+<span class="px-4 py-1 bg-surface-container-highest text-on-surface text-xs font-bold rounded-full uppercase tracking-widest">ID: IST-92031</span>
+<span class="px-4 py-1 bg-tertiary-fixed text-on-tertiary-fixed text-xs font-bold rounded-full uppercase tracking-widest">Premium Vendor</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Account Switcher Card -->
+<div class="md:col-span-2 bg-surface-container-low p-8 rounded-xl flex flex-col justify-between">
+<div>
+<h3 class="text-2xl font-headline font-bold text-primary mb-2">Operating Mode</h3>
+<p class="text-on-surface-variant max-w-md">Switch between procurement and distribution workflows. Your dashboard tools will adapt to your current selection.</p>
+</div>
+<div class="mt-12 flex bg-surface-container-high p-1 rounded-xl w-full max-w-md">
+<button class="flex-1 py-4 bg-primary text-on-primary rounded-lg font-bold transition-all flex items-center justify-center gap-3">
+<span class="material-symbols-outlined">shopping_cart</span>
+                            Buyer Mode
+                        </button>
+<button class="flex-1 py-4 text-on-surface-variant hover:text-primary font-bold transition-all flex items-center justify-center gap-3">
+<span class="material-symbols-outlined">storefront</span>
+                            Seller Mode
+                        </button>
+</div>
+</div>
+<!-- AI Complaint Assistant: High Visibility -->
+<div class="bg-primary-container p-8 rounded-xl flex flex-col justify-between relative overflow-hidden">
+<div class="relative z-10">
+<div class="w-12 h-12 bg-on-tertiary-container rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white">smart_toy</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-white mb-2 leading-tight">AI Complaint<br/>Assistant</h3>
+<p class="text-on-primary-container text-sm">Automated resolution for logistics and material quality disputes.</p>
+</div>
+<button class="relative z-10 mt-8 w-full py-4 bg-on-tertiary-container text-white rounded-xl font-bold uppercase tracking-widest text-xs hover:brightness-110 transition-all">
+                        Launch Assistant
+                    </button>
+<!-- Abstract Background Element -->
+<div class="absolute -bottom-10 -right-10 w-40 h-40 bg-on-tertiary-container/10 rounded-full blur-3xl"></div>
+</div>
+<!-- Contact Developer: Tonal Layering -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-l-4 border-primary">
+<h4 class="text-xs font-bold uppercase tracking-[0.2em] text-on-primary-container mb-6">Support &amp; Engineering</h4>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-surface-container-high rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">mail</span>
+</div>
+<div>
+<p class="text-[10px] uppercase font-bold text-slate-400">Direct Email</p>
+<p class="text-primary font-bold">aartirajpoot12@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-surface-container-high rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">call</span>
+</div>
+<div>
+<p class="text-[10px] uppercase font-bold text-slate-400">Priority Line</p>
+<p class="text-primary font-bold">9203128698</p>
+</div>
+</div>
+</div>
+<div class="mt-10 pt-6 border-t border-surface-container">
+<button class="w-full py-3 bg-surface-container-high text-primary font-bold rounded-lg text-sm hover:bg-surface-container-highest transition-colors">
+                            Technical Documentation
+                        </button>
+</div>
+</div>
+<!-- Settings Toggles -->
+<div class="md:col-span-2 bg-white rounded-xl overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-2">
+<div class="p-8 border-r border-surface-container-low">
+<h4 class="font-headline font-bold text-lg mb-6">Privacy &amp; Security</h4>
+<div class="space-y-4">
+<div class="flex items-center justify-between py-2">
+<span class="font-medium">Two-Factor Auth</span>
+<div class="w-12 h-6 bg-primary rounded-full relative">
+<div class="absolute right-1 top-1 w-4 h-4 bg-white rounded-full"></div>
+</div>
+</div>
+<div class="flex items-center justify-between py-2">
+<span class="font-medium">Public Profile</span>
+<div class="w-12 h-6 bg-slate-200 rounded-full relative">
+<div class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full"></div>
+</div>
+</div>
+<div class="flex items-center justify-between py-2">
+<span class="font-medium">Data Encryption</span>
+<div class="w-12 h-6 bg-primary rounded-full relative">
+<div class="absolute right-1 top-1 w-4 h-4 bg-white rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="p-8 bg-surface-container-low">
+<h4 class="font-headline font-bold text-lg mb-6">Regional Settings</h4>
+<div class="space-y-6">
+<div>
+<label class="text-[10px] uppercase font-bold text-on-primary-container block mb-2">Display Language</label>
+<div class="bg-surface-container-highest p-3 rounded-lg flex items-center justify-between">
+<span class="font-bold">English (UK)</span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</div>
+</div>
+<div>
+<label class="text-[10px] uppercase font-bold text-on-primary-container block mb-2">Trading Currency</label>
+<div class="bg-surface-container-highest p-3 rounded-lg flex items-center justify-between">
+<span class="font-bold">USD (United States Dollar)</span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Space for breathing -->
+<div class="h-32"></div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl border-t border-slate-100 dark:border-slate-900 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
+<div class="flex justify-around items-center w-full px-4 pt-3 pb-6">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-['Manrope'] font-semibold text-[10px] uppercase tracking-wider mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600" href="#">
+<span class="material-symbols-outlined" data-icon="reorder">reorder</span>
+<span class="font-['Manrope'] font-semibold text-[10px] uppercase tracking-wider mt-1">Orders</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600" href="#">
+<span class="material-symbols-outlined" data-icon="distance">distance</span>
+<span class="font-['Manrope'] font-semibold text-[10px] uppercase tracking-wider mt-1">Map</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-900 dark:text-slate-50 font-bold transform translate-y-[-2px]" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-['Manrope'] font-semibold text-[10px] uppercase tracking-wider mt-1">Profile</span>
+</a>
+</div>
+</nav>
+</body></html>
